@@ -1,10 +1,9 @@
 "use client";
-import { AppContext } from "@/context/AppContext";
-import { useContext, useState } from "react";
+import { useAppContext } from "@/context/AppContext";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const MenuIcon = () => {
-  const { isClick, setIsClick } = useContext(AppContext);
+  const { isClick, setIsClick } = useAppContext()
 
   const handleMenuClick = () => {
     setIsClick(!isClick);
