@@ -1,9 +1,13 @@
 "use client";
-
 import { useAppContext } from "@/context/AppContext";
+
 import { IApp } from "@/types/app.type";
 
 import { toast } from "react-toastify";
+
+
+
+
 
 const InstallButton = ({ app }: { app: IApp }) => {
   const { cart, setCart } = useAppContext();
