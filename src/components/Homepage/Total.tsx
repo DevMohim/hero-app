@@ -11,12 +11,12 @@ import React from 'react';
    ); 
    return (
      <div className="bg-linear-to-br from-primary to-secondary">
-       <div className="container mx-auto py-20 text-white space-y-10">
+       <div className="container mx-auto py-20 text-white space-y-10 px-4 lg:px-0">
          <h1 className="text-center mx-auto text-5xl font-bold">
            Trusted By Millions , Build For You
          </h1>
 
-         <div className="max-w-[70%] text-center mx-auto grid grid-cols-3 gap-6">
+         <div className="max-w-[70%] text-center mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
            <div className="space-y-4">
              <p className='opacity-80'>Total Download</p>
              <h1 className='text-6xl font-black'> {totalDownload}B+</h1>

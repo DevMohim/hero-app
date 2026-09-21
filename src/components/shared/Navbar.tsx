@@ -6,19 +6,20 @@ import Image from "next/image";
 import { IoLogoGithub } from "react-icons/io";
 import MenuIcon from "../Navbar/MenuIcon";
 import { AppContext } from "@/context/AppContext";
+import Link from "next/link";
 
 const navLinks = (
   <>
     <li className="font-medium hover:text-primary lg:hover:border-b lg:hover:border-b-primary">
-      <a href="/">Home</a>
+      <Link href="/">Home</Link>
     </li>
 
     <li className="font-medium hover:text-primary lg:hover:border-b lg:hover:border-b-primary">
-      <a href="/apps">Apps</a>
+      <Link href="/apps">Apps</Link>
     </li>
 
     <li className="font-medium hover:text-primary lg:hover:border-b lg:hover:border-b-primary">
-      <a href="/installation">Installation</a>
+      <Link href="/installation">Installation</Link>
     </li>
   </>
 );

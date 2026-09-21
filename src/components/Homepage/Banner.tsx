@@ -6,7 +6,7 @@ import BannerImg from '@/assets/hero.png'
 const Banner = () => {
   return (
     <section className=" bg-gray/10 mt-6 lg:mt-14">
-      <div className=" container mx-auto flex flex-col items-center space-y-10">
+      <div className=" container mx-auto flex flex-col items-center space-y-10 px-4 lg:px-0">
         {/* details */}
         <div className="text-center max-w-[60%] mx-auto mt-20">
           <h1 className="text-dark text-4xl font-black mb-3">
@@ -16,7 +16,7 @@ const Banner = () => {
             </span>{" "}
             Apps
           </h1>
-          <p className="text-[#627382] text-sm">
+          <p className="text-gray text-sm">
             At HERO.IO, we craft innovative apps designed to make everyday life
             simpler, smarter, and more exciting.Our goal is to turn your ideas
             into digital experiences that truly make an impact.

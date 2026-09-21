@@ -11,7 +11,7 @@ export interface IApp {
   ratings: ratings[]
 }
 
-interface ratings {
+export interface ratings {
   name: string;
   count: number;
 }
