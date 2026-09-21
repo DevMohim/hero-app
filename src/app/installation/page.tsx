@@ -1,9 +1,8 @@
 "use client";
 
 import { useAppContext } from "@/context/AppContext";
-import getData from "@/lib/getData";
 import { IApp } from "@/types/app.type";
-import { Metadata } from "next";
+
 import Image from "next/image";
 import { ChangeEvent, useMemo, useState } from "react";
 import { FaStar } from "react-icons/fa";
