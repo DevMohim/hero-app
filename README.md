@@ -2,7 +2,7 @@
 
 A modern app discovery and installation platform built with Next.js. Users can browse applications, view app details, install apps, manage installed apps, sort them by size or rating, and uninstall them when needed.
 
-![Hero App Screenshot](./public/hero-app-screenshot.png)
+![Hero App Screenshot](./app-ss.png)
 
 > Replace the screenshot path above with your actual project screenshot.
 
