@@ -2,7 +2,7 @@ import AppCard from "@/components/shared/AppCard";
 import getData from "@/lib/getData";
 import { IApp } from "@/types/app.type";
 import { Metadata } from "next";
-import React from "react";
+
 
 export const metadata: Metadata = {
   title: "Hero App | All Apps",
